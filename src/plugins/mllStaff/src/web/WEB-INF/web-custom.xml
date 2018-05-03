@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+	<servlet>
+		<servlet-name>BasicInfoServlet</servlet-name>
+		<servlet-class>com.meilele.staff.openfire.servlet.BasicInfoServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>StaffInfoServlet</servlet-name>
+		<servlet-class>com.meilele.staff.openfire.servlet.StaffInfoServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BasicInfoServlet</servlet-name>
+		<url-pattern>/basicinfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>StaffInfoServlet</servlet-name>
+		<url-pattern>/staffinfo</url-pattern>
+	</servlet-mapping>
+
+</web-app>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+	<servlet>
+		<servlet-name>historyServlet</servlet-name>
+		<servlet-class>org.jivesoftware.openfire.plugin.ChatProxServlet</servlet-class>
+	</servlet>
+	
+    <servlet>
+		<servlet-name>StaffServlet</servlet-name>
+		<servlet-class>org.jivesoftware.openfire.plugin.ChatProxStaffServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>historyServlet</servlet-name>
+		<url-pattern>/history</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>StaffServlet</servlet-name>
+		<url-pattern>/staff</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	
+</web-app>

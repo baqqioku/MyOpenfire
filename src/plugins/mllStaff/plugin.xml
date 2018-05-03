@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+	<name>mllStaffPlugin</name>
+    <class>com.meilele.staff.openfire.plugin.MllStaffPlugin</class>
+    <description>mllStaff</description>
+    <author>luyi</author>
+    <version>1.6.0</version>
+    <date>09/13/2013</date>
+    <minServerVersion>3.9.0</minServerVersion>
+</plugin>

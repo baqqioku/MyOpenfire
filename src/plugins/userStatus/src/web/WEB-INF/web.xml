@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!--
+Automatically created by Apache Tomcat JspC.
+--><web-app>
+
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.userStatus.advance_002duser_002dsearch_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.userStatus.advance_002duser_002dsearch_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.userStatus.mc_002duser_002dsearch_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.userStatus.mc_002duser_002dsearch_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.userStatus.mc_002duser_002dstatus_002dsearch_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.userStatus.mc_002duser_002dstatus_002dsearch_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.plugin.userStatus.shop_002duser_002dsearch_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.plugin.userStatus.shop_002duser_002dsearch_jsp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.userStatus.advance_002duser_002dsearch_jsp</servlet-name>
+        <url-pattern>/advance-user-search.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.userStatus.mc_002duser_002dsearch_jsp</servlet-name>
+        <url-pattern>/mc-user-search.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.userStatus.mc_002duser_002dstatus_002dsearch_jsp</servlet-name>
+        <url-pattern>/mc-user-status-search.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.plugin.userStatus.shop_002duser_002dsearch_jsp</servlet-name>
+        <url-pattern>/shop-user-search.jsp</url-pattern>
+    </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <class>org.jivesoftware.openfire.plugin.ChatProxPlugin</class>
+    <!-- Plugin meta-data -->
+    <name>Chat Prox Plugin</name>
+    <description>User Chat Message Plugins.</description>
+    <author>luojianhong</author>
+    <version>1.0</version>
+    <date>23/12/2015</date>
+    <minServerVersion>1.0.1</minServerVersion>
+</plugin>

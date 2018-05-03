@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <class>org.jivesoftware.openfire.plugin.UserStatusPlugin</class>
+    <!-- Plugin meta-data -->
+    <name>User Status Plugin</name>
+    <description>User Status Plugins.</description>
+    <author>luojianhong</author>
+    <version>1.1</version>
+    <date>03/30/2016</date>
+    <minServerVersion>1.1.1</minServerVersion>
+     <adminconsole>
+        <tab id="tab-users">
+            <sidebar id="sidebar-users">
+                <item id="advance-user-search" name="用户在线状态"
+                    url="advance-user-search.jsp"
+                    description="用户在线状态" />
+            </sidebar>
+            <sidebar id="sidebar-users">
+                <item id="shop-user-search" name="商家在线状态"
+                    url="shop-user-search.jsp"
+                    description="商家在线状态" />
+            </sidebar>
+        </tab>
+    </adminconsole>
+    
+</plugin>
